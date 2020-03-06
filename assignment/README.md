@@ -2,7 +2,7 @@
 
 ## Introduction
 
-For your [midterm project](https://github.com/CPLN-692-401/OST4GIS-Midterm),
+For your [midterm project](https://github.com/MUSA611-CPLN692-spring2020/midterm),
 you will create a story map application. The midterm is due by March 30
 (we will get some time to work in-class on March 27th) . The assignment for
 Week 7 will have you gather data and think about functions you might use

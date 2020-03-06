@@ -16,8 +16,6 @@
   - What is JSON? (Remember `JSON.parse`?)
   - Filtering for individual geojson elements
   - Styling individual geojson elements
-- Making a legend in HTML with Leaflet and jQuery
-- [Lab 2](lab/lab2/)
 
 ##### Section 2: Getting Geospatial Data
 - Where to find it
