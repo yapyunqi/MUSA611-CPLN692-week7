@@ -2,11 +2,12 @@
 
 ## Introduction
 
-For your [midterm project](https://github.com/CPLN-692-401/OST4GIS-Midterm), you will
-create a story map application. The midterm is due on March 23. The assignment for
-Week 7 will have you gather data and think about functions in preparation for
-the midterm. You are also welcome to get started on writing the midterm if you
-are so inclined.
+For your [midterm project](https://github.com/CPLN-692-401/OST4GIS-Midterm),
+you will create a story map application. The midterm is due by March 30
+(we will get some time to work in-class on March 27th) . The assignment for
+Week 7 will have you gather data and think about functions you might use
+in preparation for the midterm. You are also welcome to get started on
+writing the midterm if you are so inclined.
 
 
 ### Task 1: Prepare Geographic Data
@@ -15,7 +16,7 @@ Think about what data you want to tell a story about. You can choose a dataset
 from any of the following sources:
 
 - Use data you've been working with for another class
-- Find data from an open data repository (see [third party data repository](https://github.com/CPLN-692-401/datasets)
+- Find data from an open data repository (see [third party data repository](https://github.com/MUSA611-CPLN692-spring2020/datasets)
 for a few potential sources)
 - Create your own dataset (check out [geojson.io](http://geojson.io))
 
@@ -23,8 +24,7 @@ for a few potential sources)
 
 - At least fifteen data points
 - At least one property that can be used to filter the data and color the data
-- GeoJSON format
-- Points, line, and polygon are all fine
+- Points, lines, and polygons are all fine
 - Data should be real stuff (don't create a dataset with fictional locations)
 
 
@@ -44,8 +44,8 @@ Think about how it will be stored and read in Javascript (arrays, objects, etc.)
 
 This midterm project might be the largest Javascript application you have
 written so far. An exciting milestone for sure. Since it is a larger
-application, it might be helpful to step back and think about the project before
-starting to write code.
+application, it can be helpful to step back and think about the project before
+starting to write any code.
 
 In midtermFunctions.js, write short descriptions of the functions that will make
 up your application. You don't need to write any of the code inside the functions
@@ -92,8 +92,8 @@ might write your comments.
 
 Now that we've had a chance to see how designers work and how they think
 about the work they do, we should try to apply some of that knowledge.
-In preparation for the midterm, mock out the design of your midterm
-application to whatever level of detail you believe will be helpful as
-you go about writing code for the actual assignment.
+In preparation for the midterm, mock out the design of your midterm's slides
+(only one figma screen should be necessary - remember, the point is to
+have a *rough* sketch).
 
 

@@ -4,7 +4,7 @@
 
 ## Class Outline
 
-### Week 5 Review & Introduction
+### Week 6 Review & Introduction
 - Homework/lab discussion
   - Asynchronous behavior
   - Events
