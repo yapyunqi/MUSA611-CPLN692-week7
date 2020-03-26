@@ -13,7 +13,7 @@ p.main {
     right: 0px;
     left: 400px;
     height: 100%;
-    top: 0;
+    top: 50px;
 }
 
 .sidebar {
@@ -25,10 +25,26 @@ p.main {
     overflow-y: auto;
     padding: 20px;
     font-size: 16px;
+    border-right: 3px solid black;
 }
 
 .legend {
   position: absolute;
-  background-color: #fff;
+  top: 0px;
+  left: 400px;
+  width: 100%;
+  height: 30px;
+  background-color: white;
   z-index: 2000;
+  border-bottom: 3px solid black;
 }
+
+.legend { list-style: none; }
+.legend li { float: left; margin-right: 50px; }
+.legend span { float: left; width: 12px; height: 12px; margin: 2px; }
+
+.legend .Monday { background-color: red; }
+.legend .Tuesday { background-color: orange; }
+.legend .Wednesday { background-color: yellow; }
+.legend .Thursday { background-color: green; }
+.legend .Friday { background-color: black; }

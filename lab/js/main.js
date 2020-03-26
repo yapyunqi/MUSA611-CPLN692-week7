@@ -14,7 +14,6 @@ var Stamen_TonerLite = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{
   ext: 'png'
 }).addTo(map);
 
-
 /* =====================
 
 ## Task 1
@@ -125,11 +124,21 @@ of the application to report this information.
 
 ===================== */
 
-var dataset = ""
+var dataset = "https://raw.githubusercontent.com/MUSA611-CPLN692-spring2020/datasets/master/geojson/philadelphia-garbage-collection-boundaries.geojson";
 var featureGroup;
 
 var myStyle = function(feature) {
-  return {};
+  if (feature.properties.COLLDAY == "MON") {
+    return {fillColor: 'red'};
+  } else if (feature.properties.COLLDAY == "TUE") {
+    return {fillColor: 'orange'};
+  } else if (feature.properties.COLLDAY == "WED") {
+    return {fillColor: 'yellow'};
+  } else if (feature.properties.COLLDAY == "THU") {
+    return {fillColor: 'green'};
+  } else if (feature.properties.COLLDAY == "FRI") {
+    return {fillColor: 'black'};
+  }
 };
 
 var showResults = function() {
@@ -155,11 +164,32 @@ var eachFeatureFunction = function(layer) {
     ===================== */
     console.log(layer.feature);
     showResults();
+    if (layer.feature.properties.COLLDAY === "MON") {
+      $('.day-of-week').text("Monday");
+    }
+    if (layer.feature.properties.COLLDAY === "TUE") {
+      $('.day-of-week').text("Tuesday");
+    }
+    if (layer.feature.properties.COLLDAY === "WED") {
+      $('.day-of-week').text("Wednesday");
+    }
+    if (layer.feature.properties.COLLDAY === "THU") {
+      $('.day-of-week').text("Thursday");
+    }
+    if (layer.feature.properties.COLLDAY === "FRI") {
+      $('.day-of-week').text("Friday");
+    }
   });
 };
 
 var myFilter = function(feature) {
+  if (feature.properties.COLLDAY == "MON" |
+  feature.properties.COLLDAY === "TUE" |
+  feature.properties.COLLDAY === "WED" |
+  feature.properties.COLLDAY === "THU" |
+  feature.properties.COLLDAY === "FRI") {
   return true;
+} else return false;
 };
 
 $(document).ready(function() {
